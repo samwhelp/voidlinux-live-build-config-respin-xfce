@@ -1,0 +1,8 @@
+bluetoothd 
+cups-browsed 
+cupsd 
+cronie 
+tlp 
+socklog-unix 
+nanoklogd 
+spice-vdagentd

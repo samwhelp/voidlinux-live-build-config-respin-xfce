@@ -1,0 +1,41 @@
+
+
+##
+## ## gsettings
+##
+## ``` sh
+## gsettings list-recursively | grep nemo
+## ```
+##
+
+
+[org.nemo.desktop]
+font='Sans 12'
+#font='Monospace 12'
+
+
+[org.nemo.preferences]
+show-hidden-files=true
+ignore-view-metadata=true
+default-folder-viewer='list-view'
+click-policy='double'
+show-open-in-terminal-toolbar=true
+show-reload-icon-toolbar=true
+show-new-folder-icon-toolbar=true
+date-format='iso'
+never-queue-file-ops=true
+inherit-folder-viewer=false
+show-full-path-titles=true
+date-font-choice='no-mono'
+
+
+[org.nemo.compact-view]
+default-zoom-level='standard'
+
+
+[org.nemo.icon-view]
+default-zoom-level='standard'
+
+
+[org.nemo.list-view]
+default-zoom-level='standard'

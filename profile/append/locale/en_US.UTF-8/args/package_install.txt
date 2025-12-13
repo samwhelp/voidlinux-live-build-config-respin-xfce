@@ -1,0 +1,12 @@
+noto-fonts-cjk
+fcitx5
+fcitx5-chewing
+fcitx5-chinese-addons
+fcitx5-configtool
+fcitx5-kcm
+fcitx5-gtk
+fcitx5-qt5
+firefox-i18n-en-US
+libreoffice-i18n-en-US
+mythes-en
+hyphen-en

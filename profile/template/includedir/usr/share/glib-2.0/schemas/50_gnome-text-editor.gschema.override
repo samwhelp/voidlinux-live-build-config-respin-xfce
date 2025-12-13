@@ -1,0 +1,27 @@
+[org.gnome.TextEditor]
+auto-indent=true
+auto-save-delay=uint32 3
+custom-font='Monospace 12'
+discover-settings=true
+draw-spaces=[]
+enable-snippets=false
+highlight-current-line=true
+highlight-matching-brackets=true
+indent-style='tab'
+indent-width=-1
+keybindings='default'
+last-save-directory=''
+line-height=1.2
+recolor-window=true
+restore-session=false
+right-margin-position=80
+show-grid=false
+show-line-numbers=true
+show-map=true
+show-right-margin=true
+spellcheck=true
+style-scheme='oblivion'
+style-variant='dark'
+tab-width=4
+use-system-font=false
+wrap-text=true

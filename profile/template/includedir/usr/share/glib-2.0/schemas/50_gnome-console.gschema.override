@@ -1,0 +1,9 @@
+[org.gnome.Console]
+ignore-scrollback-limit=true
+scrollback-lines=10000
+theme='night'
+transparency=true
+font-scale=1.0
+use-system-font=false
+custom-font='Monospace 12'
+

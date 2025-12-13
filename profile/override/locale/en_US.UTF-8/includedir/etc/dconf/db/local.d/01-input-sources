@@ -1,0 +1,24 @@
+[desktop/ibus/general]
+preload-engines=['chewing']
+
+[desktop/ibus/general/hotkey]
+triggers=['<Control>space']
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('ibus', 'chewing')]
+xkb-options=@as []
+mru-sources=[('xkb', 'us'), ('ibus', 'chewing')]
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='flat'
+speed=0.0
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/wm/keybindings]
+switch-input-source=['<Control>space', 'XF86Keyboard']
+switch-input-source-backward=['<Shift><Control>space', '<Shift>XF86Keyboard']

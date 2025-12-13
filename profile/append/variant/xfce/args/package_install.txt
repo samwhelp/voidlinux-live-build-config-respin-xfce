@@ -1,0 +1,7 @@
+xfce4-screenshooter
+xfce4-plugins
+xfce4-whiskermenu-plugin
+xfce4-alsa-plugin
+xfce4-pulseaudio-plugin
+greybird-themes
+

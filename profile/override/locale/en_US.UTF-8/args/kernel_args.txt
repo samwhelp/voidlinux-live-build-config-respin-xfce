@@ -1,0 +1,1 @@
+live.user=anon live.autologin live.shell=/bin/bash console=ttyS0
