@@ -95,6 +95,7 @@ vscode
 gtksourceview
 sysstat
 mate-backgrounds
+rofi
 feh
 variety
 plank
