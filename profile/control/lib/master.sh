@@ -127,12 +127,15 @@ build_iso_profile_override_by_control () {
 build_iso_profile_append_by_variant () {
 
 
-	build_iso_profile_append_by_variant_package
+	build_iso_profile_append_by_variant_package_install
+
+	build_iso_profile_append_by_variant_service_start
+
 
 	return 0
 }
 
-build_iso_profile_append_by_variant_package () {
+build_iso_profile_append_by_variant_package_install () {
 
 	local src_dir_path="${append_root_dir_path}/variant/${opt_variant}"
 	local des_dir_path="${build_root_dir_path}/template"
@@ -142,7 +145,23 @@ build_iso_profile_append_by_variant_package () {
 	local des_file_path="${des_dir_path}/args/package_install.txt"
 
 
-	cat "${src_file_path}" | tee -a "${des_file_path}" >/dev/null 2>&1
+	util_file_append "${src_file_path}" "${des_file_path}"
+
+
+	return 0
+}
+
+build_iso_profile_append_by_variant_service_start () {
+
+	local src_dir_path="${append_root_dir_path}/variant/${opt_variant}"
+	local des_dir_path="${build_root_dir_path}/template"
+
+
+	local src_file_path="${src_dir_path}/args/service_start.txt"
+	local des_file_path="${des_dir_path}/args/service_start.txt"
+
+
+	util_file_append "${src_file_path}" "${des_file_path}"
 
 
 	return 0
@@ -151,12 +170,14 @@ build_iso_profile_append_by_variant_package () {
 build_iso_profile_append_by_locale () {
 
 
-	build_iso_profile_append_by_locale_package
+	build_iso_profile_append_by_locale_package_install
+
+	build_iso_profile_append_by_locale_service_start
 
 	return 0
 }
 
-build_iso_profile_append_by_locale_package () {
+build_iso_profile_append_by_locale_package_install () {
 
 	local src_dir_path="${append_root_dir_path}/locale/${opt_locale}"
 	local des_dir_path="${build_root_dir_path}/template"
@@ -166,7 +187,23 @@ build_iso_profile_append_by_locale_package () {
 	local des_file_path="${des_dir_path}/args/package_install.txt"
 
 
-	cat "${src_file_path}" | tee -a "${des_file_path}" >/dev/null 2>&1
+	util_file_append "${src_file_path}" "${des_file_path}"
+
+
+	return 0
+}
+
+build_iso_profile_append_by_locale_service_start () {
+
+	local src_dir_path="${append_root_dir_path}/locale/${opt_locale}"
+	local des_dir_path="${build_root_dir_path}/template"
+
+
+	local src_file_path="${src_dir_path}/args/service_start.txt"
+	local des_file_path="${des_dir_path}/args/service_start.txt"
+
+
+	util_file_append "${src_file_path}" "${des_file_path}"
 
 
 	return 0
