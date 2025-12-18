@@ -104,6 +104,7 @@ numix-themes
 arc-theme
 papirus-icon-theme
 papirus-folders
+breeze-qt6
 breeze-gtk
 breeze-icons
 noto-fonts-cjk
@@ -114,6 +115,8 @@ Thunar
 xfce4-terminal
 pcmanfm
 sakura
+engrampa
+mousepad
 geany
 viewnior
 smplayer
