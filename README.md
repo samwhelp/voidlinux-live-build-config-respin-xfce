@@ -26,6 +26,12 @@
 | [Voidlinux Live Build Config / Using](https://github.com/samwhelp/voidlinux-live-build-config-using) |
 | [Voidlinux Live Build Config / Collection](https://github.com/samwhelp/voidlinux-live-build-config-collection) |
 | [Voidlinux Live Build Config / Respin / Xfce](https://github.com/samwhelp/voidlinux-live-build-config-respin-xfce) |
+| [Voidlinux Live Build Config / Respin / Kde Plasma](https://github.com/samwhelp/voidlinux-live-build-config-respin-kde-plasma) |
+| [Voidlinux Live Build Config / Respin / Gnome Shell](https://github.com/samwhelp/voidlinux-live-build-config-respin-gnome-shell) |
+| [Voidlinux Live Build Config / Respin / Cinnamon](https://github.com/samwhelp/voidlinux-live-build-config-respin-cinnamon) |
+| [Voidlinux Live Build Config / Respin / Mate](https://github.com/samwhelp/voidlinux-live-build-config-respin-mate) |
+| [Voidlinux Live Build Config / Respin / Lxqt](https://github.com/samwhelp/voidlinux-live-build-config-respin-lxqt) |
+| [Voidlinux Live Build Config / Respin / Lxde](https://github.com/samwhelp/voidlinux-live-build-config-respin-lxde) |
 
 
 
