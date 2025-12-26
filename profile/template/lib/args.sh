@@ -24,20 +24,20 @@ fi
 
 opt_postscript="${plan_dir_path}/postscript.sh"
 opt_includedir="${plan_dir_path}/includedir"
-opt_env=$(cat "${plan_dir_path}/args/env.txt")
-opt_arch=$(cat "${plan_dir_path}/args/arch.txt")
-opt_name=$(cat "${plan_dir_path}/args/name.txt")
-opt_title=$(cat "${plan_dir_path}/args/title.txt")
-opt_variant=$(cat "${plan_dir_path}/args/variant.txt")
-opt_keymap=$(cat "${plan_dir_path}/args/keymap.txt")
-opt_locale=$(cat "${plan_dir_path}/args/locale.txt")
-opt_timezone=$(cat "${plan_dir_path}/args/timezone.txt")
-opt_root_shell=$(cat "${plan_dir_path}/args/root_shell.txt")
-opt_linux_version=$(cat "${plan_dir_path}/args/linux_version.txt")
-opt_kernel_args=$(cat "${plan_dir_path}/args/kernel_args.txt")
-opt_repo=$(cat "${plan_dir_path}/args/repo.txt")
-opt_package_install=$(cat "${plan_dir_path}/args/package_install.txt")
-opt_service_start=$(cat "${plan_dir_path}/args/service_start.txt")
+opt_env=$(core_args_load "${plan_dir_path}/args/env.txt")
+opt_arch=$(core_args_load "${plan_dir_path}/args/arch.txt")
+opt_name=$(core_args_load "${plan_dir_path}/args/name.txt")
+opt_title=$(core_args_load "${plan_dir_path}/args/title.txt")
+opt_variant=$(core_args_load "${plan_dir_path}/args/variant.txt")
+opt_keymap=$(core_args_load "${plan_dir_path}/args/keymap.txt")
+opt_locale=$(core_args_load "${plan_dir_path}/args/locale.txt")
+opt_timezone=$(core_args_load "${plan_dir_path}/args/timezone.txt")
+opt_root_shell=$(core_args_load "${plan_dir_path}/args/root_shell.txt")
+opt_linux_version=$(core_args_load "${plan_dir_path}/args/linux_version.txt")
+opt_kernel_args=$(core_args_load "${plan_dir_path}/args/kernel_args.txt")
+opt_repo=$(core_args_load "${plan_dir_path}/args/repo.txt")
+opt_package_install=$(core_args_load "${plan_dir_path}/args/package_install.txt")
+opt_service_start=$(core_args_load "${plan_dir_path}/args/service_start.txt")
 opt_iso_file_name="${opt_name}_${opt_variant}_${opt_locale}_${opt_arch}_${timestamp_start}.iso"
 
 

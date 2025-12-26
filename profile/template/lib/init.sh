@@ -8,12 +8,19 @@ DEFAULT_IS_SIMULATION_GENERATION=false
 IS_SIMULATION_GENERATION="${IS_SIMULATION_GENERATION:=$DEFAULT_IS_SIMULATION_GENERATION}"
 
 
+## core
+. "${plan_dir_path}/lib/core.sh"
+
+
 ## path
 . "${plan_dir_path}/lib/path.sh"
 
 
-## lib
+## base
+. "${plan_dir_path}/lib/base.sh"
+
+
+## model
 . "${plan_dir_path}/void-mklive/lib.sh"
-. "${plan_dir_path}/lib/core.sh"
 . "${plan_dir_path}/lib/main.sh"
 
