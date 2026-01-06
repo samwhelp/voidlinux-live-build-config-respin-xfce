@@ -112,6 +112,8 @@ dejavu-fonts-ttf
 liberation-fonts-ttf
 ttf-ubuntu-font-family
 Thunar
+thunar-volman
+thunar-archive-plugin
 xfce4-terminal
 pcmanfm
 sakura
