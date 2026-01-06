@@ -114,6 +114,7 @@ ttf-ubuntu-font-family
 Thunar
 thunar-volman
 thunar-archive-plugin
+tumbler
 xfce4-terminal
 pcmanfm
 sakura
