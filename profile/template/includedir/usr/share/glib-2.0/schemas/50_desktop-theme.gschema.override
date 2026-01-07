@@ -2,12 +2,12 @@
 
 [org.gnome.desktop.interface]
 color-scheme='prefer-dark'
-gtk-theme='Orchis-Dark'
+gtk-theme='Numix'
 icon-theme='Papirus-Dark'
 cursor-theme='breeze_cursors'
 cursor-size=24
 
 
 [org.gnome.desktop.wm.preferences]
-theme='Orchis-Dark'
+theme='Numix'
 
