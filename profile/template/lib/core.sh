@@ -29,7 +29,7 @@ core_list_load () {
 
 	local the_list_file="${1}"
 
-	if ! [ -e "${the_args_file}" ]; then
+	if ! [ -e "${the_list_file}" ]; then
 		return
 	fi
 
